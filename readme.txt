@@ -3,16 +3,14 @@ Contributors: chipbennett
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QP3N9HUSYJPK6
 Tags: cbnet, post, posts, different, custom, formatting, page, plugin, navigation, pages, category, archive, pagination, maxblogpress
 Requires at least: 2.9
-Tested up to: 3.0.3
+Tested up to: 3.5
 Stable tag: 1.8.1
 
-Show different numbers of posts on home, archive, and search pages. Activation/subscription-free fork of MaxBlogPress Different Posts Per Page
+Customize the number of posts, orderby, and order parameters for all index pages (blog/home, search, category, tag, taxonomy, author, date, and archive index).
 
 == Description ==
 
-This plugin will allow you to modify the number of posts shown on home, archive (category, date, author, etc.), search pages and feeds. You can even set the order of posts by ascending or descending order.
-
-You can even set different number of posts for specific category as well.
+This plugin will allow you to customize the number of posts, orderby, and order parameters for all index page contexts, including the blog posts index, search index, and all archive indexes (category, tag, taxonomy, author, date, archive). Orderby settings support all values relevant to archive index pages, including none, ID, author, title, name, date, modified, rand, and comment_count. Order settings support ASC and DESC.
 
 == Installation ==
 
@@ -46,6 +44,14 @@ Screenshots coming soon.
 
 == Changelog ==
 
+= 2.0 =
+* Major Revision
+* Plugin completely rewritten:
+** Settings API support
+** Implement settings via pre_get_posts
+** Made Plugin parameters filterable
+** Removed all cruft code
+* WARNING: Old settings will not be retained
 = 1.8.1 =
 * Readme.txt update
 * Updated Donate Link in readme.txt
@@ -56,6 +62,8 @@ Screenshots coming soon.
 
 == Upgrade Notice ==
 
+= 2.0 =
+Major update. Plugin completely re-written. WARNING: Old settings will not be retained.
 = 1.8.1 =
 Readme.txt update. Updated Donate Link in readme.txt
 = 1.8 =
