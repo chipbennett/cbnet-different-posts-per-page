@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: cbnet, post, posts, different, custom, formatting, page, plugin, navigation, pages, category, archive, pagination, maxblogpress
 Requires at least: 2.9
 Tested up to: 3.5
-Stable tag: 1.8.1
+Stable tag: 2.0.1
 
 Customize the number of posts, orderby, and order parameters for all index pages (blog/home, search, category, tag, taxonomy, author, date, and archive index).
 
@@ -44,6 +44,9 @@ Screenshots coming soon.
 
 == Changelog ==
 
+= 2.0.1 =
+* Bugfix
+** Replace deprecated is_taxonomy() with is_tax()
 = 2.0 =
 * Major Revision
 * Plugin completely rewritten:
@@ -62,6 +65,8 @@ Screenshots coming soon.
 
 == Upgrade Notice ==
 
+= 2.0.1 =
+* Bugfix. Replace deprecated is_taxonomy() with is_tax()
 = 2.0 =
 Major update. Plugin completely re-written. WARNING: Old settings will not be retained.
 = 1.8.1 =

@@ -3,7 +3,7 @@
  * Plugin Name:   cbnet Different Posts Per Page
  * Plugin URI:    http://www.chipbennett.net/wordpress/plugins/cbnet-different-posts-per-page/
  * Description:   Customize the number of posts, orderby, and order parameters for all index pages (blog/home, search, category, tag, taxonomy, author, date, and archive index).
- * Version:       2.0
+ * Version:       2.0.1
  * Author:        chipbennett
  * Author URI:    http://www.chipbennett.net/
  *
@@ -66,7 +66,7 @@ function cbnetdppp_filter_pre_get_posts( $query ) {
 			$context = 'tag';
 		}
 		// Taxonomy archive index
-		else if ( is_taxonomy() ) {
+		else if ( is_tax() ) {
 			$context = 'taxonomy';
 		}
 		// Author archive index
