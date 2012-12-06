@@ -15,7 +15,7 @@
 /**
  * Register Plugin Settings
  * 
- * Register Plugin_cbnetdppp_options array to hold
+ * Register plugin_cbnetdppp_options array to hold
  * all Plugin options.
  * 
  * @link	http://codex.wordpress.org/Function_Reference/register_setting	Codex Reference: register_setting()
@@ -26,7 +26,7 @@
  */
 register_setting( 
 	// $option_group
-	'plugin_cbnetdppp_options', 
+	'reading', 
 	// $option_name
 	'plugin_cbnetdppp_options', 
 	// $sanitize_callback
@@ -143,7 +143,7 @@ foreach ( $cbnetdppp_sections as $section ) {
 		// $callback
 		'cbnetdppp_sections_callback',
 		// $pageid
-		'cbnetdppp'
+		'reading'
 	);
 }
 
@@ -199,7 +199,7 @@ foreach ( $cbnetdppp_option_parameters as $option ) {
 		// $callback
 		'cbnetdppp_setting_callback',
 		// $pageid
-		'cbnetdppp',
+		'reading',
 		// $sectionid
 		'cbnetdppp_' . $optionsection . '_section',
 		// $args
