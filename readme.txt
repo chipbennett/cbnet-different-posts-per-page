@@ -2,9 +2,9 @@
 Contributors: chipbennett
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QP3N9HUSYJPK6
 Tags: cbnet, posts_per_page, order, orderby, pre_get_posts
-Requires at least: 2.9
+Requires at least: 3.3
 Tested up to: 3.5
-Stable tag: 2.1
+Stable tag: 2.1.1
 
 Customize the number of posts, orderby, and order parameters for all index pages (blog/home, search, category, tag, taxonomy, author, date, and archive index).
 
@@ -46,6 +46,9 @@ Screenshots coming soon.
 
 == Changelog ==
 
+= 2.1.1 =
+* Bugfix
+** Stop Plugin from stomping on Widget Posts Widget query
 = 2.1 =
 * Bugfix
 ** Fixed issue with incorrect user capability for settings page
@@ -72,6 +75,8 @@ Screenshots coming soon.
 
 == Upgrade Notice ==
 
+= 2.1.1 =
+* Bugfix: fixed issue with Plugin stomping on Recent Posts Widget query
 = 2.1 =
 * Bugfix/Enhancement: fixed incorrect use capability for settings page, and moved settings to Settings -> Reading
 = 2.0.1 =
