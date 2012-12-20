@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: cbnet, posts_per_page, order, orderby, pre_get_posts
 Requires at least: 3.3
 Tested up to: 3.5
-Stable tag: 2.1.1
+Stable tag: 2.2
 
 Customize the number of posts, orderby, and order parameters for all index pages (blog/home, search, category, tag, taxonomy, author, date, and archive index).
 
@@ -46,24 +46,27 @@ Screenshots coming soon.
 
 == Changelog ==
 
+= 2.2 =
+* Maintenance Release
+* Made Plugin translation-ready
 = 2.1.1 =
 * Bugfix
-** Stop Plugin from stomping on Widget Posts Widget query
+	* Stop Plugin from stomping on Widget Posts Widget query
 = 2.1 =
 * Bugfix
-** Fixed issue with incorrect user capability for settings page
+	* Fixed issue with incorrect user capability for settings page
 * Enhancement
-** Moved Plugin settings to Settings -> Reading
+	* Moved Plugin settings to Settings -> Reading
 = 2.0.1 =
 * Bugfix
 ** Replace deprecated is_taxonomy() with is_tax()
 = 2.0 =
 * Major Revision
 * Plugin completely rewritten:
-** Settings API support
-** Implement settings via pre_get_posts
-** Made Plugin parameters filterable
-** Removed all cruft code
+	* Settings API support
+	* Implement settings via pre_get_posts
+	* Made Plugin parameters filterable
+	* Removed all cruft code
 * WARNING: Old settings will not be retained
 = 1.8.1 =
 * Readme.txt update
@@ -75,12 +78,14 @@ Screenshots coming soon.
 
 == Upgrade Notice ==
 
+= 2.2 =
+Maintenance Release. Made Plugin translation-ready
 = 2.1.1 =
-* Bugfix: fixed issue with Plugin stomping on Recent Posts Widget query
+Bugfix: fixed issue with Plugin stomping on Recent Posts Widget query
 = 2.1 =
-* Bugfix/Enhancement: fixed incorrect use capability for settings page, and moved settings to Settings -> Reading
+Bugfix/Enhancement: fixed incorrect use capability for settings page, and moved settings to Settings -> Reading
 = 2.0.1 =
-* Bugfix. Replace deprecated is_taxonomy() with is_tax()
+Bugfix. Replace deprecated is_taxonomy() with is_tax()
 = 2.0 =
 Major update. Plugin completely re-written. WARNING: Old settings will not be retained.
 = 1.8.1 =
