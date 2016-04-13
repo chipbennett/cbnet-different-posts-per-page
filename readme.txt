@@ -3,7 +3,7 @@ Contributors: chipbennett
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QP3N9HUSYJPK6
 Tags: cbnet, posts_per_page, order, orderby, pre_get_posts
 Requires at least: 3.3
-Tested up to: 3.5
+Tested up to: 4.5
 Stable tag: 2.2
 
 Customize the number of posts, orderby, and order parameters for all index pages (blog/home, search, category, tag, taxonomy, author, date, and archive index).
